@@ -18,7 +18,7 @@ export function formatDate(date: Date | number, format: string = 'YYYY-MM-DD HH:
   const minutes = String(d.getMinutes()).padStart(2, '0');
   const seconds = String(d.getSeconds()).padStart(2, '0');
 
-  console.log('hello 123');
+  console.log('hello 123 123');
   
   return format
     .replace('YYYY', String(year))

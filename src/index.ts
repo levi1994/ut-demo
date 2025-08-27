@@ -5,3 +5,4 @@ export * from './utils/object';
 export * from './utils/date';
 export * from './utils/number';
 export * from './utils/validation';
+export * from './utils/url';
